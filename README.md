@@ -38,7 +38,7 @@ cp ./config/rclone-mapping.json-template ./config/rclone-mapping.json
 ```
 
 Edit `.env` and set your user and group ID. This is needed so the file permissions match with the one in the rclone 
-container.
+container. This file is also used to configure the cron frequency using `CRON_SCHEDULE`.
 
 See [rclone docs](https://rclone.org/docs/) for the contents of `rclone.conf`.
 
