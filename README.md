@@ -60,4 +60,4 @@ With the json example all `*.xlsx` files in the folder `remote_folder` in cloud 
 `example`. The docker compose container is configured to sync the files to the `./sync/` folder. With this example 
 files are copied to `./sync/example/`.
 
-First build the image using `docker compose build`. Or use the image hosted at docker hub, replace the `build` section in `docker-compose.yml` with `image: pythonunitednl/rclone-multiple-shares`. Finally start the container using `docker compose up`. On each run in cron output is logged to `/tmp/cron.log`.
+First build the image using `docker compose build`. Or use the image hosted at docker hub, replace the `build` section in `docker-compose.yml` with [`image: pythonunitednl/rclone-multiple-shares`](https://hub.docker.com/r/pythonunitednl/rclone-multiple-shares). Finally start the container using `docker compose up`. On each run in cron output is logged to `/tmp/cron.log`.
