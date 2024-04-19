@@ -1,0 +1,11 @@
+services:
+  rclone:
+    build:
+      context: ./src/
+    restart: always
+    volumes:
+      - ./config/rclone_mapping.json:/config/mapping.json
+      - ./config/rclone.conf:/config/rclone.conf
+      - ./sync/:/opt/sync
+    environment:
+      CRON_SCHEDULE: ${CRON_SCHEDULE:-*/5 * * * *}

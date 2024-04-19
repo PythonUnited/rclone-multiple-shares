@@ -1,0 +1,9 @@
+{
+  "files": [
+    {
+      "id": "example",
+      "path": "remote_folder",
+      "include": "*.xlsx"
+    }
+  ]
+}

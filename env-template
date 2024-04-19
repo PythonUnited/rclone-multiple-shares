@@ -1,0 +1,5 @@
+# Change to current user ID and group ID
+UID=1000
+GID=1000
+
+CRON_SCHEDULE="* * * * *"

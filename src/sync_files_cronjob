@@ -1,0 +1,1 @@
+* * * * * /opt/sync_files.py  > /tmp/sync.log 2>&1
