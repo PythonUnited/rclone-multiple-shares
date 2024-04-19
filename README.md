@@ -14,8 +14,8 @@ For example when using this config:
           sh -c "
             rclone sync
               --config /config/rclone.conf --progress --delete-after --create-empty-src-dirs --include *.xlsx 
-              ${RCLONE_PATH} /opt/sync
-            && echo \"sleeping for ${RCLONE_SLEEP_SECONDS} seconds\"  && sleep ${RCLONE_SLEEP_SECONDS}
+              remote_folder /opt/sync
+            && echo \"sleeping for 120 seconds\"  && sleep 120
           "
 
 However, the official does not support syncing multiple paths from cloud storage, nor is cron scheduling support. 
