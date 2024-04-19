@@ -18,7 +18,7 @@ For example when using this config:
             && echo \"sleeping for 120 seconds\"  && sleep 120
           "
 
-However, the official does not support syncing multiple paths from cloud storage, nor is cron scheduling support. 
+However, the official does not support syncing multiple paths from cloud storage, nor is cron scheduling supported. 
 This docker image aims to solve these missing features.
 
 ## Caveat 
